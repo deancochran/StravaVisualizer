@@ -1,0 +1,22 @@
+{% extends "account/base.html" %}
+
+{% block content %}
+
+<div id = "post">
+    <div id="header">
+        <div id="title">
+            <h1>{{post.title}}</h1>
+        </div>
+        {% comment %} <div id="subtitle">
+            <h3>Written by: {{post.author}}</h3>
+        </div> {% endcomment %}
+        <div id="updated">
+            <h5>Published: {{post.published}} Last Updated: {{post.updated}}</h5>
+        </div>
+    </div>
+    <div id = "content">
+        <p>{{post.content}}</p>
+    </div>
+</div>
+
+{% endblock content %}

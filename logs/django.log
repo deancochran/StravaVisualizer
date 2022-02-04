@@ -1,0 +1,424 @@
+2022-02-04 03:11:18,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:11:20,859 django.server INFO     "GET / HTTP/1.1" 200 556
+2022-02-04 03:11:22,643 django.request WARNING  Not Found: /127.0.0.1:800/users/login/
+2022-02-04 03:11:22,643 django.server WARNING  "GET /127.0.0.1:800/users/login/ HTTP/1.1" 404 2468
+2022-02-04 03:12:15,026 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:12:15,899 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:12:50,384 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:12:51,175 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:13:05,044 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:13:05,764 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:13:33,961 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/urls.py changed, reloading.
+2022-02-04 03:13:34,524 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:14:20,225 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:14:38,918 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:14:44,542 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:15:55,285 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/urls.py changed, reloading.
+2022-02-04 03:15:56,098 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:15:59,325 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:15:59,327 django.server ERROR    "GET / HTTP/1.1" 500 78086
+2022-02-04 03:16:04,700 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:16:04,702 django.server ERROR    "GET / HTTP/1.1" 500 78086
+2022-02-04 03:16:05,273 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:16:39,767 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:16:42,723 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:16:42,725 django.server ERROR    "GET / HTTP/1.1" 500 78098
+2022-02-04 03:16:56,219 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:16:56,221 django.server ERROR    "GET / HTTP/1.1" 500 78098
+2022-02-04 03:16:56,307 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:16:59,464 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 3576
+2022-02-04 03:17:06,489 django.request WARNING  Not Found: /accounts/login/http/users/login/
+2022-02-04 03:17:06,490 django.server WARNING  "GET /accounts/login/http/users/login/ HTTP/1.1" 404 5986
+2022-02-04 03:17:13,446 django.request WARNING  Not Found: /accounts/login/http/users/strava/login/
+2022-02-04 03:17:13,446 django.server WARNING  "GET /accounts/login/http/users/strava/login/?process=login HTTP/1.1" 404 6021
+2022-02-04 03:19:15,309 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:19:15,311 django.server ERROR    "GET / HTTP/1.1" 500 77529
+2022-02-04 03:19:21,041 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:19:21,042 django.server ERROR    "GET / HTTP/1.1" 500 77529
+2022-02-04 03:19:28,226 django.request ERROR    Internal Server Error: http:/127.0.0.1:800/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/Dev/StravaVisualizer/conf/views.py", line 8, in index_view
+    return render(request, 'index.html')
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-02-04 03:19:28,227 django.server ERROR    "GET / HTTP/1.1" 500 77529
+2022-02-04 03:19:48,625 django.server INFO     "GET / HTTP/1.1" 200 556
+2022-02-04 03:19:50,595 django.request WARNING  Not Found: /127.0.0.1:800/users/login/
+2022-02-04 03:19:50,595 django.server WARNING  "GET /127.0.0.1:800/users/login/ HTTP/1.1" 404 2468
+2022-02-04 03:21:34,364 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:21:36,211 django.server INFO     "GET / HTTP/1.1" 200 551
+2022-02-04 03:21:36,476 django.request WARNING  Not Found: htt/favicon.ico
+2022-02-04 03:21:36,478 django.server WARNING  "GET /favicon.ico HTTP/1.1" 404 2412
+2022-02-04 03:21:37,546 django.request WARNING  Not Found: /127.0.0./users/login/
+2022-02-04 03:21:37,546 django.server WARNING  "GET /127.0.0./users/login/ HTTP/1.1" 404 2453
+2022-02-04 03:21:51,918 django.request WARNING  Not Found: /127.0.0./users/login/
+2022-02-04 03:21:51,918 django.server WARNING  "GET /127.0.0./users/login/ HTTP/1.1" 404 2453
+2022-02-04 03:22:09,104 django.request WARNING  Not Found: http:/127.0.0./
+2022-02-04 03:22:09,105 django.server WARNING  "GET /127.0.0./ HTTP/1.1" 404 2408
+2022-02-04 03:23:56,926 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/urls.py changed, reloading.
+2022-02-04 03:23:57,800 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:24:04,853 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:24:06,790 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:24:06,790 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:24:27,282 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:24:34,450 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:24:35,597 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:24:36,985 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:24:36,986 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:25:00,111 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:25:00,111 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:27:36,083 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:27:36,084 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:27:40,863 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:27:42,609 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:27:43,929 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:27:44,463 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:27:46,019 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:27:47,232 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:27:48,036 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:27:50,800 django.request ERROR    Internal Server Error: /accounts/strava/login/callback/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 150, in dispatch
+    return complete_social_login(request, login)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 151, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 172, in _complete_social_login
+    ret = _process_signup(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 43, in _process_signup
+    ret = complete_social_signup(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 177, in complete_social_signup
+    return complete_signup(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 186, in complete_signup
+    return perform_login(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 172, in perform_login
+    response = adapter.post_login(request, user, **hook_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 429, in post_login
+    get_login_redirect_url(request, redirect_url, signup=signup)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 56, in get_login_redirect_url
+    ret = get_adapter(request).get_signup_redirect_url(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 143, in get_signup_redirect_url
+    return resolve_url(app_settings.SIGNUP_REDIRECT_URL)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 136, in resolve_url
+    if '/' not in to and '.' not in to:
+TypeError: argument of type 'NoneType' is not iterable
+2022-02-04 03:27:50,803 django.server ERROR    "GET /accounts/strava/login/callback/?state=yUdnLOGOcPZ5&code=8d81d92a45011bce6ad2186a19b813324b4f15a7&scope=read,activity:read HTTP/1.1" 500 129722
+2022-02-04 03:27:56,103 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:27:56,361 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:27:56,804 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:27:59,268 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:27:59,268 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:28:05,439 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:28:05,439 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:28:07,544 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:28:07,545 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:28:10,062 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:28:10,063 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:29:25,343 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:29:37,870 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:29:44,588 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:30:24,941 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:30:27,139 django.request WARNING  Not Found: /127.0.0./accounts/login/
+2022-02-04 03:30:27,140 django.server WARNING  "GET /127.0.0./accounts/login/ HTTP/1.1" 404 2356
+2022-02-04 03:30:30,058 django.server INFO     "GET / HTTP/1.1" 200 554
+2022-02-04 03:30:30,518 django.server INFO     "GET /admin/ HTTP/1.1" 302 0
+2022-02-04 03:30:31,696 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:30:34,438 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:30:35,661 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:30:36,715 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:30:38,986 django.request ERROR    Internal Server Error: /accounts/strava/login/callback/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 150, in dispatch
+    return complete_social_login(request, login)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 151, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 166, in _complete_social_login
+    ret = _login_social_account(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 48, in _login_social_account
+    return perform_login(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 172, in perform_login
+    response = adapter.post_login(request, user, **hook_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 429, in post_login
+    get_login_redirect_url(request, redirect_url, signup=signup)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 58, in get_login_redirect_url
+    ret = get_adapter(request).get_login_redirect_url(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 161, in get_login_redirect_url
+    return resolve_url(url)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 136, in resolve_url
+    if '/' not in to and '.' not in to:
+TypeError: argument of type 'NoneType' is not iterable
+2022-02-04 03:30:38,988 django.server ERROR    "GET /accounts/strava/login/callback/?state=gs2gm53Pl8Ob&code=aa4ff3e75c323e0df1804cf92d331f8a955a951a&scope=read,activity:read HTTP/1.1" 500 121213
+2022-02-04 03:34:08,686 django.server INFO     "GET /accounts/strava/login/callback/?state=gs2gm53Pl8Ob&code=aa4ff3e75c323e0df1804cf92d331f8a955a951a&scope=read,activity:read HTTP/1.1" 200 654
+2022-02-04 03:34:10,309 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:34:11,259 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:34:11,997 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:34:13,230 django.request ERROR    Internal Server Error: /accounts/strava/login/callback/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 150, in dispatch
+    return complete_social_login(request, login)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 151, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 166, in _complete_social_login
+    ret = _login_social_account(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 48, in _login_social_account
+    return perform_login(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 172, in perform_login
+    response = adapter.post_login(request, user, **hook_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 429, in post_login
+    get_login_redirect_url(request, redirect_url, signup=signup)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 58, in get_login_redirect_url
+    ret = get_adapter(request).get_login_redirect_url(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 161, in get_login_redirect_url
+    return resolve_url(url)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 136, in resolve_url
+    if '/' not in to and '.' not in to:
+TypeError: argument of type 'NoneType' is not iterable
+2022-02-04 03:34:13,232 django.server ERROR    "GET /accounts/strava/login/callback/?state=k9fqNigNF1Nm&code=e6eb45f4aa22a342a120f40079c0fda34c922243&scope=read,activity:read HTTP/1.1" 500 121213
+2022-02-04 03:34:24,818 django.server INFO     "GET /accounts/strava/login/callback/?state=k9fqNigNF1Nm&code=e6eb45f4aa22a342a120f40079c0fda34c922243&scope=read,activity:read HTTP/1.1" 200 654
+2022-02-04 03:34:27,972 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:34:29,295 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:34:30,460 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:34:31,915 django.request ERROR    Internal Server Error: /accounts/strava/login/callback/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 150, in dispatch
+    return complete_social_login(request, login)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 151, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 166, in _complete_social_login
+    ret = _login_social_account(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 48, in _login_social_account
+    return perform_login(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 172, in perform_login
+    response = adapter.post_login(request, user, **hook_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 429, in post_login
+    get_login_redirect_url(request, redirect_url, signup=signup)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 58, in get_login_redirect_url
+    ret = get_adapter(request).get_login_redirect_url(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 161, in get_login_redirect_url
+    return resolve_url(url)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 136, in resolve_url
+    if '/' not in to and '.' not in to:
+TypeError: argument of type 'NoneType' is not iterable
+2022-02-04 03:34:31,917 django.server ERROR    "GET /accounts/strava/login/callback/?state=2b2sMlvcBtnz&code=5738b6744096fd3321873b2b92755c4d2f091717&scope=read,activity:read HTTP/1.1" 500 121213
+2022-02-04 03:36:10,993 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:36:12,062 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:36:13,586 django.server INFO     "GET /accounts/strava/login/callback/?state=2b2sMlvcBtnz&code=5738b6744096fd3321873b2b92755c4d2f091717&scope=read,activity:read HTTP/1.1" 200 654
+2022-02-04 03:36:14,722 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:36:15,611 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:36:16,496 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:36:17,844 django.request ERROR    Internal Server Error: /accounts/strava/login/callback/
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 150, in dispatch
+    return complete_social_login(request, login)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 151, in complete_social_login
+    return _complete_social_login(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 166, in _complete_social_login
+    ret = _login_social_account(request, sociallogin)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/socialaccount/helpers.py", line 48, in _login_social_account
+    return perform_login(
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 172, in perform_login
+    response = adapter.post_login(request, user, **hook_kwargs)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 429, in post_login
+    get_login_redirect_url(request, redirect_url, signup=signup)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/utils.py", line 58, in get_login_redirect_url
+    ret = get_adapter(request).get_login_redirect_url(request)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/allauth/account/adapter.py", line 161, in get_login_redirect_url
+    return resolve_url(url)
+  File "/Users/deancochran/.local/share/virtualenvs/StravaVisualizer-z15eFqZf/lib/python3.9/site-packages/django/shortcuts.py", line 136, in resolve_url
+    if '/' not in to and '.' not in to:
+TypeError: argument of type 'NoneType' is not iterable
+2022-02-04 03:36:17,847 django.server ERROR    "GET /accounts/strava/login/callback/?state=JhgWS9gcZ7a1&code=7381dc47b569dd2dc609e25055d917200f5ef451&scope=read,activity:read HTTP/1.1" 500 121213
+2022-02-04 03:36:30,756 django.server INFO     "GET /accounts/strava/login/callback/?state=2b2sMlvcBtnz&code=5738b6744096fd3321873b2b92755c4d2f091717&scope=read,activity:read HTTP/1.1" 200 654
+2022-02-04 03:36:50,247 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:36:50,796 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:37:14,812 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:37:15,338 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:37:55,793 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:37:56,357 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:38:25,470 django.utils.autoreload INFO     /Users/deancochran/Dev/StravaVisualizer/conf/settings.py changed, reloading.
+2022-02-04 03:38:26,056 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:48:53,435 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-04 03:48:56,773 django.server INFO     "GET / HTTP/1.1" 200 540
+2022-02-04 03:48:58,160 django.server INFO     "GET /accounts/login/ HTTP/1.1" 200 984
+2022-02-04 03:48:59,308 django.server INFO     "GET /accounts/strava/login/?process=login HTTP/1.1" 200 803
+2022-02-04 03:49:00,054 django.server INFO     "POST /accounts/strava/login/?process=login HTTP/1.1" 302 0
+2022-02-04 03:49:01,710 django.server INFO     "GET /accounts/strava/login/callback/?state=FO0KT0Qb1xhI&code=ff4df8dbc07b7dc0ffa7bb801f541a9493731dfb&scope=read,activity:read HTTP/1.1" 302 0
+2022-02-04 03:49:04,716 django.request WARNING  Not Found: /exchange_token
+2022-02-04 03:49:04,717 django.server WARNING  "GET /exchange_token?state=&code=fbd7c7e4b9b8df594337af3507ac1fd5cc7d1cd4&scope=read HTTP/1.1" 404 2398

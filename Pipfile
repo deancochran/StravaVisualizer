@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sentry-sdk = "*"
+djangorestframework = "*"
+requests = "*"
+psycopg2-binary = "*"
+django-allauth = "*"
+django-dotenv = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+flake8 = "*"
+isort = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+server = "python manage.py runserver"
+makemigrations = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
+startapp = "python manage.py startapp"
+createsuperuser = "python manage.py createsuperuser"
+shell = "python manage.py shell"

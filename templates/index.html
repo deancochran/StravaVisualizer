@@ -1,0 +1,12 @@
+{% extends "account/base.html" %}
+
+{% block content %}
+
+
+{% if user.is_authenticated %}
+<h1> Welcome to Strava Hub {{request.user.username}}</h1>
+{% else %}
+<h1> Welcome to Strava Hub</h1>
+{% endif %}
+
+{% endblock content %}

@@ -1,0 +1,15 @@
+  <Config>
+    <stravaAPIConfig>
+      <clientID>75469</clientID>
+      <clientSecret>df9e2e2c9fc7455cdc75d528dfae9c9b3818ffa8</clientSecret>
+    </stravaAPIConfig>
+    <stravaLogin>
+      <username>charles.dean.cochran@gmail.com</username>
+      <password>ballDontlie4</password>
+      <url>'http://127.0.0.1:5000/authorization'</url>
+    </stravaLogin>
+    <generalParams>
+      <urlStravaActivities>https://www.strava.com/api/v3/activities</urlStravaActivities>
+      <csvFilename>strava_activities.csv</csvFilename>
+    </generalParams>
+  </Config>
