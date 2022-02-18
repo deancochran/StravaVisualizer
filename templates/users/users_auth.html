@@ -1,0 +1,33 @@
+{% extends "account/base.html" %}
+
+
+{% block head_title %}
+{% endblock %}
+
+
+{% block content %}
+{% load static %}
+
+<!-- <h1> we are updating your profile {{user.first_name}}</h1>
+
+<p><img id='profile_image' src={{user.profile_image}} alt="profile_image"> </p>
+<p>Bio: {{user.bio }}</p>
+
+
+<p class='downloads'> You have <span id='download-count'></span> activities.... updating activity #<span id='current-download'>number</span> </p>
+
+<div id='bigDiv'></div> -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+{% if user.access_token %}
+<script type="text/javascript">  
+    const username = '{{user.username}}';
+    const accessToken = '{{user.access_token }}';
+    const csrftoken = '{{ csrf_token }}';
+    const user_url = '{{user.get_absolute_url}}'
+
+</script>
+<script src="{% static 'js/loadActivities.js' %}" type="text/javascript" defer></script>
+{% endif %}
+{% endblock content %}
+
